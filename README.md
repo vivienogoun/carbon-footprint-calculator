@@ -1,63 +1,39 @@
-# Movie Genre Demo
+# Carbon Footprint Calculator
 
-## Usage
-- [Usage](#usage)
-- [Demo Movie Genre](#what-is-demo-sales-dashboard)
-- [Directory Structure](#directory-structure)
-- [License](#license)
-- [Installation](#installation)
-- [Contributing](#contributing)
-- [Code of conduct](#code-of-conduct)
+## Description
 
-## What is Movie-Genre demo
-
-Taipy is a  low-code Python library for creating Business Applications. More information on our [website](https://www.taipy.io).
-
-[Demo Movie Genre](https://github.com/Avaiga/demo-movie-genre) demonstrates how Taipy can read an csv file and show interesting results. This demo creates a back-end execution, also called scenario in Taipy Core. Our scenario will filter movie data based on the genre you choose. This scenario will be submitted each time the genre selection changes and output the seven most popular movies of that genre.The output will be shown on Taipy GUI, where you will also be able to select the genre.
-
-### Demo Type
-- **Level**: Basic
-- **Topic**: Taipy-GUI & Taipy-Core
-- **Components/Controls**: 
-  - Taipy GUI: selector, chart, interactive elements
-  - Taipy Core: data note, task, pipeline, scenario
-
-## How to run
-
-This demo works with a Python version superior to 3.8. Install the dependencies of the *requirements.txt* and run the *main.py*.
-
+The Carbon Footprint Calculator is a web application developed using the Taipy Python library to empower users with insights into their environmental impact based on lifestyle choices. By allowing users to input preferences in key areas such as transportation, energy consumption, diet, and more, the application calculates their total carbon emissions.
 
 ## Directory Structure
 
-
-- `src/`: Contains the demo source code.
-  - `src/data`: Contains the application data files. An Excel can be found here.
-- `CODE_OF_CONDUCT.md`: Code of conduct for members and contributors of _demo-movie-genre.
-- `CONTRIBUTING.md`: Instructions to contribute to _demo-movie-genre.
-- `INSTALLATION.md`: Instructions to install _demo-movie-genre.
-- `LICENSE`: The Apache 2.0 License.
-- `Pipfile`: File used by the Pipenv virtual environment to manage project dependencies.
+- `src/`: Contains the source code.
+  - `src/data`: Contains the dataset used for the project.
+  - `src/main.py`: The main file of the project.
+  - `src/model.pkl`: A pretrained model for predictions. You can train your own.
+  - `src/requirements.txt`: Project requirements.
+- `LICENSE`: The MIT License.
 - `README.md`: Current file.
-
-## License
-Copyright 2023 Avaiga Private Limited
-
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with
-the License. You may obtain a copy of the License at
-[http://www.apache.org/licenses/LICENSE-2.0](https://www.apache.org/licenses/LICENSE-2.0.txt)
-
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on
-an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
-specific language governing permissions and limitations under the License.
 
 ## Installation
 
-Want to install _demo movie genre_? Check out our [`INSTALLATION.md`](INSTALLATION.md) file.
+This project works with a Python version superior to 3.8. To avoid any issue, set it up in a new virtual environment.
+
+```
+git clone https://github.com/vivienogoun/carbon-footprint-calculator.git
+cd carbon-footprint-calculator/src
+pip install -r requirements.txt
+```
+
+## How to run
+
+```
+taipy run main.py
+```
 
 ## Contributing
 
-Want to help build _demo movie genre_? Check out our [`CONTRIBUTING.md`](CONTRIBUTING.md) file.
+Contributions are welcome! Feel free to fork the repository, open issues, and submit pull requests to improve existing features or add more features to the project.
 
-## Code of conduct
+## License
 
-Want to be part of the _demo movie genre_ community? Check out our [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) file.
+This project is licensed under the [MIT License](https://opensource.org/license/mit)
