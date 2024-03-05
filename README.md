@@ -4,6 +4,10 @@
 
 The Carbon Footprint Calculator is a web application developed using the Taipy Python library to empower users with insights into their environmental impact based on lifestyle choices. By allowing users to input preferences in key areas such as transportation, energy consumption, diet, and more, the application calculates their total carbon emissions.
 
+## Demo
+
+![Project demo](demo.mp4)
+
 ## Directory Structure
 
 - `src/`: Contains the source code.
