@@ -6,10 +6,7 @@ The Carbon Footprint Calculator is a web application developed using the Taipy P
 
 ## Demo
 
-<video width="640" height="360" controls>
-  <source src="demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Project demo](demo.gif)
 
 ## Directory Structure
 
